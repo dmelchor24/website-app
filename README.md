@@ -25,7 +25,7 @@ El flujo de la solución está diseñado para simular un entorno real:
 1. El desarrollador realiza un push al repositorio.
 2. Netlify despliega automáticamente la aplicación web.
 
-![Diagrama](diagrama/DiagramaNetlify.png)
+![Diagrama](diagrama/DiagramaVercel.png)
 
 ---
 
