@@ -126,7 +126,6 @@ out/
 results/
 reports/
 logs/
-selenium-screenshot-*.png
 
 # Selenium
 geckodriver.log
