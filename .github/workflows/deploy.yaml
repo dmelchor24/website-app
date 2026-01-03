@@ -20,6 +20,6 @@ jobs:
         run: |
           curl -X POST \
             -H "Accept: application/vnd.github+json" \
-            -H "Authorization: Bearer ${{ secrets.REPO-WEBSITE-TESTS }}" \
+            -H "Authorization: Bearer ${{ secrets.REPO_WEBSITE_TESTS }}" \
             https://api.github.com/repos/dmelchor24/website-tests/dispatches \
             -d '{"event_type":"run-tests","client_payload":{"base_url":"https://website-app-psi.vercel.app"}}'
